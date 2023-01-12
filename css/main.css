@@ -1,8 +1,63 @@
 body {
-    background: black;
     color: white;
+    background-color: black;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    text-align: center;
 }
 
 h1 {
     color: yellow;
+    border: 4px dotted mediumspringgreen;
+    border-radius: 10px;
+    text-align: center ;
+    background-color: rgba(33,76,26, 0.64);
+    text-shadow: blue 10px 5px 5px;
+}
+
+h2 {
+   size: 1rem;
+    color: blue;
+}
+img {
+    height: 200px;
+    width: 400px;
+}
+
+.longeur {
+    text-align: center;
+    max-width: 375px;
+    margin-left: 500px;
+
+
+}
+
+footer {
+   background-color: aquamarine;
+    text-align: center;
+    color: black;
+    border: black solid 4px;
+    border-radius: 10px;
+}
+
+li {
+    list-style-position: inside;
+}
+
+p {
+
+    color: red;
+
+}
+main {
+
+    background-image: url("../images/pexels-cesar-perez-733745.jpg");
+    background-size: 45%;
+    background-repeat: no-repeat;
+}
+
+ul {
+    display : inline-block;
+    margin :auto;
+    text-align:left;
 }
