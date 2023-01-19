@@ -27,13 +27,13 @@ img {
 .longeur {
     text-align: center;
     max-width: 375px;
-    margin-left: 500px;
-
-
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
 }
 
 footer {
-   background-color: aquamarine;
+   background-color: gray;
     text-align: center;
     color: black;
     border: black solid 4px;
@@ -45,15 +45,14 @@ li {
 }
 
 p {
-
-    color: red;
-
+    color: black;
 }
-main {
 
-    background-image: url("../images/pexels-cesar-perez-733745.jpg");
-    background-size: 45%;
+main {
+    background-image: url("../images/fond-arriere-plan-brillant_1390-34.webp");
+    background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 ul {
@@ -61,3 +60,5 @@ ul {
     margin :auto;
     text-align:left;
 }
+
+
